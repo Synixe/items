@@ -1,0 +1,14 @@
+*.pbo
+logs/
+tools/
+*.tmp
+hemtt
+*.dll
+*.so
+
+## Added by HEMTT
+releases/*
+*.biprivatekey
+keys/*
+.hemtt/local
+####

@@ -1,0 +1,19 @@
+[package]
+name = "synixe_extension"
+version = "0.1.0"
+authors = ["Brett <brett@bmandesigns.com>"]
+edition = "2018"
+
+[lib]
+name = "synixe"
+crate-type = ["cdylib"]
+
+[dependencies]
+arma-rs = { git = "https://github.com/synixebrett/arma-rs", branch = "master" }
+arma-rs-macros = { git = "https://github.com/synixebrett/arma-rs", branch = "master" }
+discord-rpc-sdk = { git = "https://github.com/synixebrett/rust-discord-rpc", branch = "master" }
+enigo = "0.0.14"
+lazy_static = "1.4"
+libc = "0.2"
+reqwest = {version = "0.10", features = ["json", "blocking", "rustls-tls"], default-features = false }
+webbrowser = "0.5"
